@@ -1,0 +1,17 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #000; /* Hintergrundfarbe auf schwarz setzen */
+    color: #fff;
+    font-size: 16px; /* Schriftgröße ändern */
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #222; /* Hintergrundfarbe der Tabellenüberschriften auf dunkleres Schwarz setzen */
+}
