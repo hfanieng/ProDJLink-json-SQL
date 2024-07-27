@@ -9,7 +9,7 @@ entries = []
 def read_from_subprocess():
     global entries
     try:
-        process = subprocess.Popen(['./vizlink'], stdout=subprocess.PIPE, text=True)
+        process = subprocess.Popen(['./vizlink/vizlink.exe'], stdout=subprocess.PIPE, text=True)
         for line in process.stdout:
             if line.strip():
                 try:
